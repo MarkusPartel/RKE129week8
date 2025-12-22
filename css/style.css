@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --primary-color: #333333;
+    --primary-light: #fff4e6;
+    --primary-icon: #2563EB;
+    --primary-dot: #A5B2B8;
+    --primary-roll: #6D6B6B;
+    --heading-font: "Poppins", sans-serif;
+    --body-font: "Roboto", sans-serif;
+
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+
+}
+
+body{
+
+    background-color: var(--primary-light);
+    font-family: var(--body-font);
+    color: var(--primary-color)
+} 
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+header{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    width: 100%;
+    padding-bottom: 20px;
+    height: auto;
+
+}
+
+header h1 {
+
+    font-family: var(--heading-font);
+    font-size: 40px;
+    padding:0  90px ;
+    height: 40px;
+}
+
+.roll{
+    font-size: 20px;
+    color:var(--primary-roll);
+    padding: 15px 45px;
+
+}
+
+.image-container{
+    padding-left: 30%;
+    padding-top: 20px;
+}
+
+.profiili-pilt img{
+
+    object-fit: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 350;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.pealkirjad{
+    font-size: 32px;
+    padding-top: 50px;
+    font-weight: 500;
+    
+
+}
+
+.alapealkirjad{
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.kontaktandme-kastid{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
+    line-height: 32px;
+
+
+}
+
+.kontaktandme-ikoonid ul{
+    list-style-type: none;
+    color:var(--primary-icon);
+
+}
+
+
+.kontaktandme-andmed ul{
+    list-style-type: none;
+}
+
+.loendused{
+    padding-left: 40px;
+}
+
+ul li::marker{
+    color: var(--primary-dot);
+    font-size: 30px;  
+}
+
+
+.copy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100px;
+    padding-left: 300px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.footer-text{
+    width: 250px;
+}
+
+.footer-icon{
+    color:var(--primary-icon);
+}
+
+hr{
+    width: 500px;
+    height: 2px;
+    border: none;
+    border-top: 2px solid var(--primary-icon);
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 480px){
+
+    .container
+    {
+        width: 100%;
+    }
+
+    .image-container
+    {
+    padding-left: 0;
+    margin: 0 auto;
+    }
+
+    .profiili-pilt img
+    {
+
+    object-fit: cover;
+    border-radius: 50%;
+    height: 300px;
+    }
+
+    .pealkirjad{
+        text-align: center;
+    }
+
+    .copy{
+        width: 50%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .main{
+        padding-left: 10px;
+    }
+
+    hr{
+        width: 95%;
+        margin: 0 auto;
+        
+    }
+
+    header h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .roll{
+        font-size: 12px;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .pealkirjad{
+    font-size: 24px;
+    font-weight: 500;
+    
+
+    }
+
+    *{
+        font-size: 14px;
+    }
+
+    .kontaktandme-kastid{
+        width: 180px;
+    }
+}
