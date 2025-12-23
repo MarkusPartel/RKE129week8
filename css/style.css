@@ -71,8 +71,9 @@ header h1 {
 
     object-fit: cover;
     border-radius: 50%;
-    height: 400px;
-    width: 350;
+    height: 345px;
+    width: 315;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .main{
