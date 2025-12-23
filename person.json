@@ -1,0 +1,22 @@
+{
+    "fName": "Karl",
+    "lName": "Saar",
+    "roll": "Noorem veebiarendaja(õpilane)",
+    "kontaktid": [
+        "+372 55555 1234",
+        "karl.saar@example.com",
+        "Tallinn, Eesti",
+        "github.com/karlsaar"],
+    "oskused": [
+        "HTML,CSS",
+        "JavaScript (algaja",
+        "Git/GitHub",
+        "Figma",
+        "UI/UX põhialused"
+    ]
+
+
+
+
+
+}
